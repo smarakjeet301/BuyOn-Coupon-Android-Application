@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/offer_l"
+    android:layout_margin="7dp"
+    android:elevation="3dp"
+    android:padding="10dp"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/offer_store_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/offer_store_name"
+        android:layout_marginStart="22dp"
+        android:src="@drawable/flipkart" />
+
+    <TextView
+        android:id="@+id/offer_store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="15dp"
+        android:text="Flipkart"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/offer_store_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/offer_store_name"
+        android:layout_below="@+id/offer_store_name"
+        android:text="cameras" />
+
+    <TextView
+        android:id="@+id/offer_store_tagwords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/offer_store_image"
+        android:layout_marginTop="68dp"
+        android:textColor="@android:color/black"
+        tools:text="Upto 80% Off on Laptops, Cameras and More" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/ic_tag" />
+
+
+</RelativeLayout>

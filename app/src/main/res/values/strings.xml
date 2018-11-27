@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BuyOn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fashion">Fashion</string>
+    <string name="tickets">Tickets</string>
+    <string name="sports">Sports</string>
+    <string name="garden">Garden</string>
+    <string name="babies">Babies</string>
+    <string name="flipkart">Flipkart</string>
+    <string name="amazon">Amazon</string>
+    <string name="snapdeal">Snapdeal</string>
+    <string name="shopclues">Shopclues</string>
+    <string name="ajio">Ajio</string>
+    <string name="aliexpress">AliExpress</string>
+</resources>
